@@ -29,13 +29,10 @@ void setup()
     
 }
   
-
-
 void loop() 
 {
   read_potentiometer();  
 }
-
 
 void read_potentiometer()
 {
