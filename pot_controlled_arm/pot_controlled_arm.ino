@@ -20,6 +20,7 @@ int val, val1, val2, val3;
 void setup()
 {
   Serial.begin(9600);
+  Serial.print("Hello Welcome to Robotic Arm Control Using Potentiometer ");
   
   myservo.attach(13);
   myservo1.attach(11);  
@@ -35,10 +36,6 @@ void loop()
   read_potentiometer();  
 }
 
-
-void serialEvent() 
-{
-}
 
 void read_potentiometer()
 {
